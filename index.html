@@ -14,20 +14,22 @@
 <body>
 
     <div class="searchlist">
-        <input type="text"> <button type="button" class="btn btn-outline-dark" id="lebutton">Get the Weather!</button>
+        <input class = "inputtext" type="text"> 
+        <button type="button" class="btn btn-outline-dark" id="lebutton">Get the Weather!</button>
+        
 
     </div>
     <!--This whole list should be on the right or left side of the page. contains input search box and all the other listed searches-->
      <div class="immediateresults">
-        <h1 class="theArea"></h1> 
+        <h1 class="theArea"></h1> <br>
     <!--contains the state or area that was searched.-->
-            <p1 class="theTemp"></p1>
+            <p1 class="theTemp"></p1><br>
     <!--all data pertaining to the temp goes here from api-->
-            <p2 class="theHumididty"></p2>
+            <p2 class="theHumididty"></p2><br>
     <!--all data pertaining to the humidity goes here from api-->
-            <p3 class="theWind"></p3>
+            <p3 class="theWind"></p3><br>
     <!--all data pertaining to the wind speed goes here from api-->
-            <p4 class="theUV"></p4>
+            <p4 class="theUV"></p4><br>
     <!--all data dealing with UV goes here from api-->
      </div>
 
@@ -36,11 +38,11 @@
 
     <div class="fivedayforecast">
              <div class="row">
-                 <div class="col-md-2"></div>
-                 <div class="col-md-2"></div>
-                 <div class="col-md-2"></div>
-                 <div class="col-md-2"></div>
-                 <div class="col-md-3"></div>
+                 <div id="weather1" class="col-md-2"></div>
+                 <div id="weather2" class="col-md-2"></div>
+                 <div id="weather3" class="col-md-2"></div>
+                 <div id="weather4" class="col-md-2"></div>
+                 <div id="weather5" class="col-md-3"></div>
 
              </div>
     </div>
