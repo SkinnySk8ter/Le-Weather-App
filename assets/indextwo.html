@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hot/Cold</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="searchResults">
+        <div class="row">
+            <div class="col">
+                <H1>Pick a City</H1>
+                <input class="inputtext" type="text">
+                <button type="button" class="btn btn-outline-dark" id="lebutton">Get the Weather!</button>
+            </div>
+            <div class="col">
+                <h2>Search Results</h2> <br>
+
+                <div class="immediateresults">
+                     <br>
+                <!--contains the state or area that was searched.-->
+                        <p1 class="theTemp"></p1><br>
+                <!--all data pertaining to the temp goes here from api-->
+                        <p2 class="theHumidity"></p2><br>
+                <!--all data pertaining to the humidity goes here from api-->
+                        <p3 class="theWind"></p3><br>
+                <!--all data pertaining to the wind speed goes here from api-->
+                        <p4 class="theUV"></p4><br>
+                <!--all data dealing with UV goes here from api-->
+                 </div>
+            </div>
+        </div>
+        <div class="bmore5day">
+            <div class="row">
+              <div id="monday" class="col">Monday</div>
+              <div id="tuesday" class="col">Tuesday</div>
+              <div id="wednesday" class="col">Wednesday</div>
+              <div id="thursday" class="col">Thursday</div>
+              <div id="friday" class="col">Friday</div>
+            </div>    
+            
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="javascript.js"></script>
+</body>
+
+</html>
